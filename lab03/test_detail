@@ -1,0 +1,15 @@
+test1: a test for DLListBefore(); when L->current ==NULL;
+test2: a test for DLListBefore(); when L->nitems==1;
+test3: a test for DLListBefore(); when L->first==L->curr;
+test4: a test for DLListBefore(); when L->curr==L->last;
+test5: a test for DLListBefore(); when L->nitems>=3&& L->curr!=first && L->curr!=last;
+test6: a test for DLListAfter(); when L->current ==NULL;
+test7: a test for DLListAfter(); when L->nitems==1;
+test8: a test for DLListAfter(); when L->first==L->curr;
+test9: a test for DLListAfter(); when L->curr==L->last;
+test10: a test for DLListAfter(); when L->nitems>=3&& L->curr!=first && L->curr!=last;
+test11: a test for DLListDelete(); when L->current ==NULL;
+test12: a test for DLListDelete(); when L->nitems==1;
+test13: a test for DLListDelete(); when L->first==L->curr;
+test14: a test for DLListDelete(); when L->curr==L->last;
+test15: a test for DLListDelete(); when L->nitems>=3&& L->curr!=first && L->curr!=last;
